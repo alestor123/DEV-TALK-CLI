@@ -1,11 +1,14 @@
 {
   "name": "dev-talk",
-  "version": "1.1.3",
+  "version": "1.2.3",
   "description": "This is a simple code for cli to cli talk for devs",
   "main": "App.js",
-  "bin": {
-    "dev-talk": "App.js"
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "readline": "^1.3.0",
+    "socket.io-client": "^3.0.3"
   },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,10 +21,5 @@
   "bugs": {
     "url": "https://github.com/alestor123/DEV-TALK-CLI/issues"
   },
-  "homepage": "https://github.com/alestor123/DEV-TALK-CLI#readme",
-  "dependencies": {
-    "chalk": "^4.1.0",
-    "readline": "^1.3.0",
-    "socket.io-client": "^3.0.3"
-  }
+  "homepage": "https://github.com/alestor123/DEV-TALK-CLI#readme"
 }
