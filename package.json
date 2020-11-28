@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple code for cli to cli talk for devs",
   "main": "App.js",
+  "bin": {
+    "dev-talk": "App.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
