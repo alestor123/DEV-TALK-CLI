@@ -4,6 +4,10 @@ chalk = require('chalk'),
 rl = readline.createInterface(process.stdin, process.stdout),
 username = process.argv[2],
 channel = process.argv[3];
+if(channel == undefined || username == undefined){
+console.log(chalk.red('Error : Enter Username And Channel Correctly; Type dev-talk -h for help'));
+process.exit(0)
+}
 socket.on('connect', () => {
     console.log(`Username: ${chalk.green(username)} , Channel: ${chalk.red(channel)}`);
     console.log(chalk.red('=== start chatting ==='))
