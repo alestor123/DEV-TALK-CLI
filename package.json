@@ -1,6 +1,6 @@
 {
   "name": "dev-talk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a simple code for cli to cli talk for devs",
   "main": "App.js",
   "bin": {
