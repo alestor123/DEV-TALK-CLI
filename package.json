@@ -1,0 +1,19 @@
+{
+  "name": "dev-talk",
+  "version": "1.0.0",
+  "description": "This is a simple code for cli to cli talk for devs",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alestor123/DEV-TALK-CLI.git"
+  },
+  "author": "Alestor Aldous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alestor123/DEV-TALK-CLI/issues"
+  },
+  "homepage": "https://github.com/alestor123/DEV-TALK-CLI#readme"
+}
