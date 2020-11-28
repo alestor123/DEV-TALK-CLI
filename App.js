@@ -5,6 +5,7 @@ rl = readline.createInterface(process.stdin, process.stdout),
 username = process.argv[2],
 channel = process.argv[3];
 socket.emit('join', { username: username, channel: channel });
+prompt()
 socket.on('message', ({ user, msg, channel }) => function(user, msg, channel = this.channel) {
     process.stdout.clearLine();
     process.stdout.cursorTo(0);
