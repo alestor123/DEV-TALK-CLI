@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/alestor123/DEV-TALK-CLI/issues"
   },
-  "homepage": "https://github.com/alestor123/DEV-TALK-CLI#readme"
+  "homepage": "https://github.com/alestor123/DEV-TALK-CLI#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "readline": "^1.3.0",
+    "socket.io-client": "^3.0.3"
+  }
 }
